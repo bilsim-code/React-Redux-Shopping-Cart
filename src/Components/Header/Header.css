@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav .logo {
+    text-transform: uppercase;
+    color: rgba(162, 36, 7, 0.858);
+    text-decoration: none;
+}
+
+.nav .logo:hover {
+    text-decoration: underline;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-li {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.nav-li:hover {
+    text-decoration: underline;
+}
