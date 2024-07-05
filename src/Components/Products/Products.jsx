@@ -10,7 +10,7 @@ const Products = ({ product }) => {
     function handleAddToCart() {
         dispatch(addToCart(product))
     }
-
+``
     function handleRemoveFromCart() {
         console.log('removed ');
         dispatch(removeFromCart(product.id))
