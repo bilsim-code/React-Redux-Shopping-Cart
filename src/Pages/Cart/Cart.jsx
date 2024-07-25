@@ -31,7 +31,7 @@ const Cart = () => {
         </>
       ) : (
         <div className="cart-empty">
-          <h1>Cart is empty</h1>
+          <h1>Cart is empty...for now</h1>
           <Link to={"/"}>
             <button>Shop Now</button>
           </Link>
